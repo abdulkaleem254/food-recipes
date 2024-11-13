@@ -24,7 +24,7 @@ export default function Cardbox(props) {
 
 
         </div>
-            </>):(<p>No results found</p>)}
+            </>):(<p>No results found`:)`</p>)}
             
 
         </div>
