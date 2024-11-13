@@ -1,3 +1,4 @@
+import "../App.css"
 export default function Cardbox(props) {
     const data = props.data;
     console.log(data);
@@ -24,7 +25,7 @@ export default function Cardbox(props) {
 
 
         </div>
-            </>):(<p>No results found</p>)}
+            </>):(<p>No results found`:)`</p>)}
             
 
         </div>
