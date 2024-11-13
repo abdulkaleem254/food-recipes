@@ -1,3 +1,4 @@
+import "../App.css"
 export default function Cardbox(props) {
     const data = props.data;
     console.log(data);

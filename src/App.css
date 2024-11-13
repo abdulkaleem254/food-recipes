@@ -37,6 +37,7 @@
 }
 .card-items{
   display: flex;
+  /* display: block; */
   flex-wrap: wrap;
   width: 100%;
   margin: 20px auto;
@@ -44,7 +45,7 @@
 }
 
 .card-section{
-  width: 15%;
+  width: 250px;
   margin: 10px 1%;
   background-color: #f1f1f1;
   padding: 1%;
@@ -68,5 +69,17 @@
   margin: 0px;
   padding: 0px;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .box{
+    width: 95%;
+  }
+  .card-items{
+    display: block;
+  }
+  .card-section{
+    width: 100%;
+  }
 }
 
