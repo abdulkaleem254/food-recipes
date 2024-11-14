@@ -1,7 +1,8 @@
-.search{
+.search {
   text-align: center;
 }
-.search input{
+
+.search input {
   width: 200px;
   height: 40px;
   padding: 5px;
@@ -10,6 +11,7 @@
   outline: none;
   font-weight: 500;
 }
+
 .search button {
   border-radius: 8px;
   border: 1px solid black;
@@ -20,10 +22,12 @@
   cursor: pointer;
   margin: 0px 15px;
 }
-.search button:hover{
+
+.search button:hover {
   background-color: black;
   color: white;
 }
+
 .card {
   padding: 2em;
 }
@@ -31,11 +35,13 @@
 .read-the-docs {
   color: #888;
 }
-.box{
+
+.box {
   width: 80%;
   margin: 0 auto;
 }
-.card-items{
+
+.card-items {
   display: flex;
   /* display: block; */
   flex-wrap: wrap;
@@ -44,33 +50,40 @@
   padding: 1%;
 }
 
-.card-section{
-  width: 250px;
+.card-section {
+  width: 29%;
   margin: 10px 1%;
   background-color: #f1f1f1;
   padding: 1%;
   border-radius: 10px;
 }
-.card-img{
+
+
+.card-img {
   width: 100%;
   /* height: 100%; */
-  
+
 }
-.card-img img{
+
+.card-img img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
 }
-.card-body h2{
+
+.card-body h2 {
   margin-bottom: 2px;
 }
-.category{
+
+.category {
   font-size: 16px;
   margin: 0px;
   padding: 0px;
   font-weight: bold;
 }
-.card-body a,.recipe-btn{
+
+.card-body a,
+.recipe-btn {
   background-color: black;
   color: white;
   padding: 10px 15px;
@@ -91,19 +104,23 @@
   justify-content: center;
   align-items: center;
   color: black;
-  
+
 }
-.modal-overlay h2,.modal-overlay h4{
+
+.modal-overlay h2,
+.modal-overlay h4 {
   margin-bottom: 0px;
   margin-top: 0px;
   color: black;
 }
-.modal-overlay button{
+
+.modal-overlay button {
   font-size: 35px;
   padding: 5px;
   margin: 5px 15px;
 
 }
+
 
 .modal-content {
   background: white;
@@ -115,57 +132,80 @@
   overflow: scroll;
   color: black;
 }
-
+.modal-header{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  /* border: 2px solid red; */
+  width: 80%;
+  right: 10%;
+  top: 7%;
+  background-color: #fff;
+}
+.modal-body{
+  margin-top: 3%;
+}
 
 .close-button {
-  position: fixed;
-  width: 50px;
-  top: 8%;
-  right: 15px;
   background: white;
   padding: 5px 10px;
   border: none;
   font-size: 20px;
   cursor: pointer;
 }
-.modal-img{
-  width: 100%;
+
+.modal-img {
+  float: left;
+  width: 30%;
   height: 300px;
+  margin: 0px 20px 0 0;
+}
+.actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
 }
 
 @media only screen and (max-width: 600px) {
-  .box{
+  .box {
     width: 95%;
   }
-  .box>p{
+
+  .box>p {
     width: 95%;
     margin: 15px auto 0px 10px;
     padding: 1%;
   }
-  .card-items{
+
+  .card-items {
     display: block;
     width: 95%;
     margin: unset;
   }
-  .card-section{
+
+  .card-section {
     width: 100%;
     margin: 15px auto;
   }
-  .card-body{
+
+  .card-body {
     height: auto;
-    padding:0% 0% 5% 1%;
+    padding: 0% 0% 5% 1%;
     /* border: 2px solid red; */
   }
-  .card-body h2,.card-body p{
+
+  .card-body h2,
+  .card-body p {
     color: black;
   }
-  .actions{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 10px;
+  .modal-img {
+    width: 100%;
+    height: 300px;
   }
-  .search input{
+ 
+
+  .search input {
     width: 65%;
   }
 }
-
