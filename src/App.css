@@ -81,5 +81,12 @@
   .card-section{
     width: 100%;
   }
+  .card-body h2,.card-body p{
+    color: black;
+  }
+  .card-body a{
+    background-color: black;
+    color: white;
+  }
 }
 
