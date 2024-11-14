@@ -90,16 +90,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
   
 }
 .modal-overlay h2,.modal-overlay h4{
   margin-bottom: 0px;
   margin-top: 0px;
+  color: black;
 }
 .modal-overlay button{
   font-size: 35px;
   padding: 5px;
   margin: 5px 15px;
+
 }
 
 .modal-content {
@@ -110,6 +113,7 @@
   width: 80%;
   height: 80%;
   overflow: scroll;
+  color: black;
 }
 
 
