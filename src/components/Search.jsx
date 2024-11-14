@@ -23,7 +23,7 @@ export default function Search({data,items}){
     return(
         <>
         <div className="search">
-            <h1>Food Recipe</h1>
+            <h1>Food Recipes</h1>
             <form onSubmit={submitHandler}>
                 <input type="search" placeholder="Search" name="search" onChange={handleChange}/>
                 <button type="submit">Search</button>

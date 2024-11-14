@@ -70,6 +70,64 @@
   padding: 0px;
   font-weight: bold;
 }
+.card-body a,.recipe-btn{
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  margin: 10px 0px;
+  text-decoration: none;
+}
+
+/* Modal */
+/* Modal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.modal-overlay h2,.modal-overlay h4{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.modal-overlay button{
+  font-size: 35px;
+  padding: 5px;
+  margin: 5px 15px;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  width: 80%;
+  height: 80%;
+  overflow: scroll;
+}
+
+
+.close-button {
+  position: fixed;
+  width: 50px;
+  top: 8%;
+  right: 15px;
+  background: white;
+  padding: 5px 10px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.modal-img{
+  width: 100%;
+  height: 300px;
+}
 
 @media only screen and (max-width: 600px) {
   .box{
@@ -97,12 +155,13 @@
   .card-body h2,.card-body p{
     color: black;
   }
-  .card-body a{
-    background-color: black;
-    color: white;
-    padding: 10px 15px;
-    margin: 10px 0px;
-    text-decoration: none;
+  .actions{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+  }
+  .search input{
+    width: 65%;
   }
 }
 
