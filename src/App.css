@@ -75,6 +75,11 @@
   .box{
     width: 95%;
   }
+  .box>p{
+    width: 95%;
+    margin: 15px auto 0px 10px;
+    padding: 1%;
+  }
   .card-items{
     display: block;
     width: 95%;
@@ -84,6 +89,11 @@
     width: 100%;
     margin: 15px auto;
   }
+  .card-body{
+    height: auto;
+    padding:0% 0% 5% 1%;
+    /* border: 2px solid red; */
+  }
   .card-body h2,.card-body p{
     color: black;
   }
@@ -92,6 +102,7 @@
     color: white;
     padding: 10px 15px;
     margin: 10px 0px;
+    text-decoration: none;
   }
 }
 
