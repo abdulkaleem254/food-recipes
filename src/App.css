@@ -77,9 +77,12 @@
   }
   .card-items{
     display: block;
+    width: 95%;
+    margin: unset;
   }
   .card-section{
     width: 100%;
+    margin: 15px auto;
   }
   .card-body h2,.card-body p{
     color: black;
@@ -87,6 +90,8 @@
   .card-body a{
     background-color: black;
     color: white;
+    padding: 10px 15px;
+    margin: 10px 0px;
   }
 }
 
